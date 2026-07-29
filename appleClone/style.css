@@ -31,7 +31,19 @@ header{
 .logo-link{
     width:20px;
 }
+.second{
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    height: 580px;
+    color: white;
+    background-position: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    
+
+}
 
 footer{
     background-color: #f5f5f7 ;

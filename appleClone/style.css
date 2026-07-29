@@ -18,7 +18,7 @@ font-weight: 600;}
 .just{font-size: 30px;
 margin-top: 10px;}
 .price{color: rgb(134, 134, 139);
-margin-bottom: 20px ;}
+}
 .third-sec .third-wrapper .link{ font-size: 20px;}
 
 /* watch-card */
@@ -318,5 +318,84 @@ footer{
     padding-bottom: 100px;
 }
         
+.sixth_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
+  height: 350px;
+  gap: 15px;
+  padding: 50px;
+  padding: 0px;
+}
+.best2{
+  font-size: 14px;
+}
+.s-left-side-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-left: 0px;
+  height: 350px;
+  background-color: #f5f5f7;
+}
+.macbook_pro {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+.macbook-image2 {
+  padding-top: 12px;
+  object-fit: contain;
+  width: 300px;
+  height: 250px;
+}
+.s-right-side-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+  width: 50%;
+  
+  background-image: url("images/home/new-ipad.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.like-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+/*.everywhere_links a::after{content:" >";
+	margin-left: 5px;
+	font-weight: 600;
+  
+}*/
 
+.links-wrapper ul{
+    list-style-type:none ;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px 0;
+}
 
+.links-wrapper a{
+    color:#0066cc;
+    font-size:18px;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+.links-wrapper a::after{
+    content:" >";
+}
